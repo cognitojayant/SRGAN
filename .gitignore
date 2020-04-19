@@ -1,0 +1,8 @@
+venv
+*.pyc
+__pyacache__
+*.png
+.idea
+Images
+saved_models
+.DS_Store
