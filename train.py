@@ -48,7 +48,6 @@ def train(hr_shape, channels, epoch, n_epochs, lr, b1, b2, batch_size, n_cpu, ch
     imageloader = ImageDataLoader(batch_size, num_worker=n_cpu)
     dataloader = imageloader.image_dataloader('images/scanned', hr_shape=hr_shape)
 
-
     # ----------
     #  Training
     # ----------
